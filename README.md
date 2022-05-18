@@ -9,8 +9,9 @@ You cannot change the name of Dockerfile. ssh.sh file is a bash script file to e
 ## SETUP
 In your PC put these two files to a folder. Go to this folder using terminal.<br />To bulid image from dockerfile, run command:
 ```
-          # docker bulit -t <image-name> .
+          # docker bulit -t your-image-name .
 ```
+your-image-name is image file name you want to give.
 To launch a container, run command:
 ``` 
           # docker run --name SYSTEM_WEB -it -p <port-for-http>:80 -p <port-for-ssh>:22 httpd:ssh
